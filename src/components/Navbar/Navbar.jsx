@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import style from "./navbar.module.css"
 export default function Navbar() {
-    return (    
+    return (
         <nav className={style.navbar}>
             <div className={style.navbar__image}>
-            <img src="./../../public/images/logo_dixa.jpg" alt="Logo" />
+                <img src="./images/logo_dixa.jpg" alt="Logo Dixa" />
             </div>
             <ul className={style.navbar__options}>
                 <li>
